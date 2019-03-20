@@ -1,6 +1,6 @@
 # RabbitMQ Peer Discovery Etcd
 
-This is an etcd-based implementation of RabbitMQ [peer discovery interface](http://www.rabbitmq.com/blog/2018/02/12/peer-discovery-subsystem-in-rabbitmq-3-7/)
+This is an etcd-based implementation of RabbitMQ [peer discovery interface](https://www.rabbitmq.com/blog/2018/02/12/peer-discovery-subsystem-in-rabbitmq-3-7/)
 (new in 3.7.0, previously available in the [rabbitmq-autocluster plugin](https://github.com/rabbitmq/rabbitmq-autocluster)
 by Gavin Roy).
 
@@ -42,7 +42,7 @@ See [RabbitMQ Cluster Formation guide](https://www.rabbitmq.com/cluster-formatio
 
 ## Contributing
 
-See [CONTRIBUTING.md](./CONTRIBUTING.md) and our [development process overview](http://www.rabbitmq.com/github.html).
+See [CONTRIBUTING.md](./CONTRIBUTING.md) and our [development process overview](https://www.rabbitmq.com/github.html).
 
 
 ## License

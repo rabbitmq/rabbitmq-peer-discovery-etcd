@@ -11,12 +11,12 @@ services:
     command:
       - --name=etcd0
       - --initial-cluster-token=etcd-cluster-1
-      - --initial-cluster=etcd0=http://etcd0:2380
+      - --initial-cluster=etcd0=https://etcd0:2380
       - --initial-cluster-state=new
-      - --initial-advertise-peer-urls=http://etcd0:2380
-      - --listen-client-urls=http://0.0.0.0:2379,http://0.0.0.0:4001
-      - --listen-peer-urls=http://0.0.0.0:2380
-      - --advertise-client-urls=http://etcd0:2379  
+      - --initial-advertise-peer-urls=https://etcd0:2380
+      - --listen-client-urls=https://0.0.0.0:2379,http://0.0.0.0:4001
+      - --listen-peer-urls=https://0.0.0.0:2380
+      - --advertise-client-urls=https://etcd0:2379  
     networks:
       - back
   rabbit:
